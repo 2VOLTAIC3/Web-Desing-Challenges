@@ -1,0 +1,1 @@
+This a reppository only for practicing and to challenge myself to improve and do something different in the world of programming web pages, also this is a remider about how I start to involve in this world.  
