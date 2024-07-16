@@ -26,7 +26,7 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/2VOLTAIC3/Web-Desing-Challenges/tree/master/QR-Challenge/qr-code-component-main)
 
 ## My process
 
