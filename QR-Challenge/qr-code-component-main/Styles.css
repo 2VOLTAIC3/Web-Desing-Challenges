@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Pre-deffined variables*/
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+
+body{
+    background-color: var(--White);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+/*Main Contaier Styles*/
+.main__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Lightgray);
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*Card Container*/
+.main__card--container{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    background-color: var(--White);
+    margin: 25px;
+    border-radius: 15px;
+    max-width: 300px;
+}
+
+
+/*Img Container*/
+.main__card--container figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+
+}
+
+/*Img*/
+.main__card--container figure img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+/*Section with titles, paragraphas, etc*/
+.main__card--container article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    gap: 16px;
+    padding: 10px 0 35px 0;
+}
+
+.main__card--container h1{
+    color: var(--Darkblue);
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.main__card--container p{
+    color: var(--Grayishblue);
+    font-size: .9rem;
+    text-align: center;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+/*Conttributions Section*/
+.attribution{
+    background-color: var(--Lightgray);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 0 25px;
+    color: var(--Darkblue);
+    padding: 0 0 35px 0;
+}
+
+.attribution a{
+    color: var(--Grayishblue);
+    text-decoration: none;
+    cursor: pointer;
+}
