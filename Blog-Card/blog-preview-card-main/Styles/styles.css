@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Predefined Variables */
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray500: hsl(0, 0%, 42%);
+    --Gray950: hsl(0, 0%, 7%);
+}
+
+body{
+    font-family: 'Figtree', sans-serif;
+    font-size: 1rem;
+    scroll-behavior: smooth;
+}
+
+.main{
+    background-color: var(--Yellow);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.main-card__container{
+    background-color: var(--White);
+    max-width: 280px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 14px;
+    border: 1px solid var(--Gray950);
+    box-shadow: 7px 7px;
+}
+
+.main-card__container .main-card__figure{
+    width: 100%;
+    padding: 18px;
+}
+
+.main-card__container .main-card__figure img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main-card__container .main-card__texts{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 18px 0 18px;
+}
+
+.main-card__texts span{
+    background-color: var(--Yellow);
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-size: .8rem;
+    font-weight: 800;
+}
+
+.main-card__texts p{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.main-card__texts h1{
+    font-size: 1.08rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.main-card__texts h1:hover{
+    color: var(--Yellow);
+}
+
+.main-card__texts p:nth-child(4){
+    font-size: 0.750rem;
+    font-weight: 500;
+    line-height: 1rem;
+    color: var(--Gray500);
+}
+
+/****************** Profile Section Styles *********************/
+
+/*Img + Username Container*/
+.main-card__profile{
+    width: 100%;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-card__profile figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    cursor: pointer;
+}
+
+.main-card__profile figure img{
+    border-radius: 50%;
+    box-shadow: .7px .7px 2px;
+    width: 100%;
+}
+
+.main-card__profile p{
+    font-size: 0.8rem;
+    font-weight: 800;
+    cursor: pointer;
+}
